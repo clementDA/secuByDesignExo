@@ -1,24 +1,25 @@
 <h1>SecuByDesign</h1>
 
 Le repository est séparé en deux:
-protuits-sportif,  le code non sécurisé du site.
-produits-sportif-secure, la version sécurisé du code du site.
+-protuits-sportif:  le code non sécurisé du site.
+-produits-sportif-secure: la version sécurisé du code du site.
 
 L'application est conçue avec les technologies PHP,nodejs, mysql.
 La base de donnée comprend une unique table utilisateur.
 
-L'application se présente sous la forme d'un site ecommerce de materiel et complément alimentaires sportifs.
+L'application se présente sous la forme d'un site e-tcommerce de materiel et complément alimentaires sportifs.
 Il posséde une page admin affichant tout les utilisateurs, une fonctionalité de panier et un champ de recherche.
 
 Le déploiement des deux site de font par l'utilisation d'un serveur apache et le déploiement d'une base mysql.
 Le dossier doit juste être déployé dans le dossier www
 et le fichier /config/database.php reparamétré selon les paramètres de la nouvelle base de donnée.
 
-(par manque de temps aucun déployement docker n'a pu être réalisé)
+(par manque de temps aucun déploiement docker n'a pu être réalisé)
 
 
 
 Une vidéo accompagne le dossier et ce readme, démontrant les quatres vulnérabilitées qui ont été ici exploité (et corrigées)
+La vidéo est archivé en format zip a cause  de sa taille excessice.
 
 1: InjectionSQL
 
